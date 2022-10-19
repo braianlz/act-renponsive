@@ -1,0 +1,40 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: radial-gradient(circle at top left, #0278ff, #000000);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+nav a{
+    font-weight: 600;
+    padding: 20px;
+}
+nav a:hover{
+    color: #0278ff;
+}
+@media (max-width: 700px){
+header{
+    flex-direction: column;
+}
+nav{
+    padding: 10 px 0px;
+}
+}
